@@ -44,8 +44,9 @@ h1{
 }
 
 .container_button{
-    display: flex;
-    column-gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
     padding: 5px;
 }
 
@@ -64,6 +65,14 @@ h1{
 
 .btn_second{
     background-color: #ff0000ad;
+}
+
+.btn_third{
+    background-color: #004b8d;
+}
+
+.btn_fourth{
+    background-color: #d78215ed;
 }
 
 .btn_result{
