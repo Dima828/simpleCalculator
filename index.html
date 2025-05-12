@@ -8,6 +8,24 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Калькулятор</h1>
+        <input type="number" class="input_number-first " placeholder="Введите 1 число"
+        id="input1"
+        value="10"/>
+        <input type="number" class="input_number-first" placeholder="Введите 2 число"
+        id="input2"
+        value="5"/>
+        <div class="container_button">
+            <button class="btn_first btn" id="plus">+</button>
+            <button class="btn_second btn" id="minus">-</button>
+        </div>
+        <button class="btn_result btn" id="submit">Вычислить</button>
+
+        <div class="place_result">
+            <h4>Результат:</h4>
+            <p id="result">15</p>
+        </div>
+    </div>
 </body>
 </html>
